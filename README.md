@@ -35,13 +35,13 @@ Sample Output
 
 #Code
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+- import java.io.*;
+- import java.util.*;
+- import java.text.*;
+- import java.math.*;
+- import java.util.regex.*;
 
-public class Solution {
+ public class Solution {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -51,4 +51,4 @@ public class Solution {
             System.out.println(N + " x " + i + " = " + r);
         }
     }
-}
+ }
