@@ -31,3 +31,24 @@ Sample Output
 - 2 x 8 = 16
 - 2 x 9 = 18
 - 2 x 10 = 20
+
+
+#Code
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+        for(int i=1; i<=10; i++){
+            int r = N * i;
+            System.out.println(N + " x " + i + " = " + r);
+        }
+    }
+}
